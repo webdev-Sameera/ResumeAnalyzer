@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import re
-import nltk
+import nltk==3.6.2
 
 nltk.download('punkt')
 nltk.download('stopwords')
